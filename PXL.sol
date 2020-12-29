@@ -206,7 +206,7 @@ contract Pixel {
     uint96 public constant feeParts = 1000000;
     uint96 public feeRate = 1000; //0.10%
     address public feeRecipient = 0x985B1Df99F5cDD4eaefd7cd6c5087f92eBE6b610; //Vault address
-    uint256 relaseTime = 1612137600; //01-Feb-21 00:00:00 UTC (Fee activation time)
+    uint256 public relaseTime = 1612137600; //01-Feb-21 00:00:00 UTC (Fee activation time)
     
     /// @notice Address which may mint new tokens
     address public minter;
